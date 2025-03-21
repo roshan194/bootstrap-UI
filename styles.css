@@ -80,7 +80,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-  } 
+  }
   
   /* Responsive adjustments */
   @media (max-width: 768px) {
@@ -132,19 +132,4 @@
   /* Footer */
   .footer {
     margin-top: 50px;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .gallery {
-      grid-template-columns: repeat(2, 300px); /* 2 columns on tablets */
-      grid-template-rows: repeat(5, 200px); /* Adjust rows for smaller screens */
-    }
-  }
-  
-  @media (max-width: 576px) {
-    .gallery {
-      grid-template-columns: 300px; /* 1 column on mobile */
-      grid-template-rows: repeat(9, 200px); /* Adjust rows for mobile */
-    }
   }
